@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "nanarcode": {
+    "name": "",
+    "connector": "mongodb",
+    "host": "",
+    "port": 49651,
+    "database": "",
+    "username": "",
+    "password": ""
+  }
+}

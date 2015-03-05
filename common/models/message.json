@@ -1,0 +1,29 @@
+{
+  "name": "Message",
+  "description": "Message crée par un utilisateur.",
+  "strict": true,
+  "idInjection": true,
+  "properties": {
+    "content": {
+      "type": "string",
+      "required": true,
+      "min": 1,
+      "max": 200
+    },
+    "creationDate": {
+      "type": "date",
+      "required": false,
+      "defaultFn": "now"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "writer": {
+      "type": "belongsTo",
+      "model": "Writer",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}
